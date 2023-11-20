@@ -6,7 +6,9 @@ public class EjemploExtenderThread {
     public static void main(String[] args) throws InterruptedException {
         Thread hilo = new NombreThread("Jhon Doe");
         hilo.start();
-        //Thread.sleep(100);
+        Thread.sleep(100);
+        System.out.println(Thread.currentThread().getName());
+        System.out.println(Thread.currentThread().getState());
         Thread hilo2 = new NombreThread("Maria");
         hilo2.start();
 
