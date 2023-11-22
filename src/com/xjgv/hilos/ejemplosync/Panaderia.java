@@ -1,4 +1,4 @@
-package com.xjgv.hilos.ejemplossync;
+package com.xjgv.hilos.ejemplosync;
 
 public class Panaderia {
     private String pan;
